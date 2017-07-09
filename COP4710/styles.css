@@ -1,0 +1,219 @@
+* {
+  font-family:verdana,sans-serif;
+  font-size  :14pt;
+}
+
+body {
+  width     : auto;
+  margin    :20px auto;
+  background:#f8f8f8;
+  border    :2px solid blue;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 50%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mapContainer {
+    height: 50%;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+html {
+  background:#f8f8f8;
+}
+
+img {
+  border            :1px solid black;
+  margin-right      :15px;
+  -moz-box-shadow   :2px 2px 2px #888;
+  -webkit-box-shadow:2px 2px 2px #888;
+  box-shadow        :2px 2px 2px #888;
+}
+
+li a, .button {
+  text-decoration:none;
+}
+
+.menu > li > a:hover {
+  color: black;
+}
+
+#profile {
+  border: 2px solid blue;
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+
+.statusmsg{
+    font-size: 12px;
+    padding: 3px;
+    background: #EDEDED;
+    border: 1px solid #DFDFDF;
+    color: black;
+}
+
+#intro {
+  background-image: url("img/background/intro.jpg");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid blue;
+}
+
+#upevent {
+  border: 1px solid blue;
+  background-color: white;
+  color: black;
+}
+
+#event_head {
+  font size: 24px;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+}
+
+#intro_text {
+  color: blue;
+  background-color: #f8f8f8;
+  border: 1px solid blue;
+}
+
+.appname {
+  background :cyan;
+  color      :blue;
+  font-weight: bold;
+  font-family:helvetica;
+  font-size  :20px;
+  padding    :4px;
+}
+
+.fieldname {
+  float:left;
+  width:120px;
+}
+
+.main {
+  margin-left:40px;
+  color: black;
+  font-weight: normal;
+}
+
+.info {
+  background :lightgreen;
+  color      :blue;
+	border     :1px solid green;
+	padding    :5px 10px;
+  margin-left:40px;
+}
+
+.menu li, .button {
+  display           :inline;
+  border            :1px solid blue;
+  background        :#ddd;
+	color             :cyan;
+  margin-right      :8px;
+	border-radius     :5px;
+	-moz-box-shadow   :2px 2px 2px #888;
+	-webkit-box-shadow:2px 2px 2px #888;
+	box-shadow        :2px 2px 2px #888;
+}
+
+#heading {
+  font-size: 24;
+}
+
+.subhead {
+  font-weight:bold;
+}
+
+#social {
+    padding: 20px;
+}
+
+#social a {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#social img {
+    height: 20px;
+}
+
+#social img:hover {
+    opacity: 0.5;
+}
+
+.cta {
+    background-color: black;
+    color: white;
+    padding: 0;
+    width: 180px;
+    font-size: 18px;
+    line-height: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cta:hover {
+    background-color: #00CFFF;
+}
+
+.hero {
+    font-family: "Roboto", serif;
+    text-align: center;
+    background-size: cover;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.taken, .error {
+  color:red;
+}
+
+.available {
+  color:green;
+}
+
+.whisper {
+  font-style:italic;
+  color     :#006600;
+}
+
+#logo {
+  font-family:Georgia;
+  font-weight:bold;
+  font-style:italic;
+  font-size :97px;
+}

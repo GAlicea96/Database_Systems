@@ -1,0 +1,29 @@
+
+
+
+Todo -
+//1. create user profile (all users) and university profile (only superadmins can make this)
+//2. create database in setup.php as soon as possible
+//2.5. change header with comment details
+//2.75. drop down search (users, rso, event, uni)
+//3. create uni creation page (only superadmin)
+//4. create rso profile
+//4.5. edit page
+//5. create rso creation page (only admins can modify, students can make if there are >= 5 (use assertion) with same email domain)
+//5.5. add page for students to petition rso
+//8. create event creation page (uni events, rso event, or normal event [needs superadmin approval])
+8.5 google maps for event creation and profile
+//9. pending events for superadmins
+//6. create event "profile"(public[all], private[students of uni], rso[students in rso])(location using google maps)
+//7. create list events feature (limit view scope based on user type) for event (location and uni), rso (of same uni)
+//9. create commenting/ratings for events on event profile (show when searching)
+//10. create facebook posting feature
+//11. chatroom for rsos
+//12. functionality to contact button, etc
+//13. forgot password/change password1
+//14. unfollow for rsos and events on profiles (rsos that fall below 5 -> admin goes to student active 1 and admin active 0)
+15. recaptcha
+
+
+//11. add filters and sorts to search
+12. implement any additional features/improved design
